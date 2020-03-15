@@ -24,6 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .header {
@@ -31,6 +32,31 @@
   font-size: 83px;
   font-family: 'Bungee Inline', cursive;
   text-align: center;
+}
+.header-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 220px;
+  background: rgb(245, 97, 97);
+  border: white 2px solid;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 15px;
+  text-decoration: none;
+  font-family: 'Bellota Text', cursive;
+  font-size: 35px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.31);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.header-button:hover {
+  background: #368de7;
 }
 
 .quote-container {
@@ -144,6 +170,8 @@
   justify-content: flex-end;
   font-family: 'Bellota Text', cursive;
   font-weight: bold;
+  color: #192372;
+  font-size: 13px;
 }
 
 /* .photo1 {
@@ -315,6 +343,7 @@ input::-moz-focus-inner {
   .header {
     font-size: 55px;
   }
+
   .quote-container {
     font-size: 20px;
   }
@@ -330,6 +359,9 @@ input::-moz-focus-inner {
     height: 200px;
   }
   .button {
+    width: 300px;
+  }
+  .header-button {
     width: 300px;
   }
   .button-container p {

@@ -3,7 +3,7 @@ import React from 'react';
 export const Button = () => {
   return (
     <div>
-      <div className='button-container'>
+      <div className='button-container' id='end'>
         <p>How you can help!</p>
         <a className='button' href='https://www.tamdistrict.org/domain/36'>
           Email the board members
@@ -14,7 +14,7 @@ export const Button = () => {
         >
           Sign the Petition
         </a>
-        <div className='footer'>Made with ❤️ by Mark. Team 06-07</div>
+        <div className='footer'>Made with ❤️ by Mark Wild. Team 06-07</div>
       </div>
     </div>
   );
