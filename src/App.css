@@ -30,9 +30,11 @@
   color: rgb(255, 255, 255);
   font-size: 83px;
   font-family: 'Bungee Inline', cursive;
+  text-align: center;
 }
 
 .quote-container {
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,6 +60,7 @@
   background: var(--main-bg-color);
   /* height: 1200px; */
   padding: 100px 230px 5px 230px;
+  text-align: center;
 }
 .content-container p {
   color: var(--text-color);
@@ -124,7 +127,7 @@
   flex-direction: column;
 }
 .img1 {
-  height: 600px;
+  max-height: 600px;
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.31);
   -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.31);
@@ -295,4 +298,51 @@ button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
+}
+
+@media only screen and (max-width: 1255px) {
+  .header {
+    font-size: 60px;
+  }
+  .quote-container {
+    font-size: 25px;
+  }
+  .content-container {
+    padding: 100px 130px 5px 130px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .header {
+    font-size: 55px;
+  }
+  .quote-container {
+    font-size: 20px;
+  }
+  .content-container {
+    padding: 100px 50px 5px 50px;
+  }
+  .img1 {
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .img1 {
+    height: 200px;
+  }
+  .button {
+    width: 300px;
+  }
+  .button-container p {
+    font-size: 30px;
+  }
+  .content-container {
+    padding: 100px 10px 5px 10px;
+  }
+  .content-container h3 {
+    font-size: 35px;
+  }
+  .header {
+    font-size: 55px;
+    line-height: 123px;
+  }
 }
