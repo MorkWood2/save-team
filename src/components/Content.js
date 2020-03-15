@@ -22,7 +22,11 @@ export const Content = () => {
           education. <b>Team is a family and it does change lives.</b>{' '}
         </p>
         <div className='img-container'>
-          <img className='img1' src={Image} alt='' />
+          <img
+            className='img1'
+            src={Image}
+            alt='students backing in wilderness looking out at beach'
+          />
           <span className='img-info'>
             Team 06-07 looking out at the beautiful landscape of the Lost Coast,
             California.
