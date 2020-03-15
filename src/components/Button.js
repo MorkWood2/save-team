@@ -14,13 +14,7 @@ export const Button = () => {
         >
           Sign the Petition
         </a>
-        <div className='footer'>
-          Made with{' '}
-          <span role='img' aria-label='heart'>
-            ❤️
-          </span>{' '}
-          by the Team class of 06-07
-        </div>
+        <div className='footer'>Made by the Team class of 06-07</div>
       </div>
     </div>
   );
