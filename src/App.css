@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellota+Text&family=Bungee+Inline&display=swap');
+
+:root {
+  --main-bg-color: #e4e4e4;
+  --secondary-bg-color: #368de7;
+  --text-color: rgb(34, 34, 34);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -20,38 +27,70 @@
   font-size: 83px;
   font-family: 'Bungee Inline', cursive;
 }
+
 .quote-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #368de7;
+  background: var(--secondary-bg-color);
   height: 200px;
-}
-.quote-container {
   color: white;
   font-family: 'Bungee Inline', cursive;
   font-size: 30px;
   -webkit-box-shadow: inset 0px 10px 5px -6px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: inset 0px 10px 5px -6px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0px 10px 5px -6px rgba(0, 0, 0, 0.5);
-}
-.content-container {
   background-image: url('svg/wave.svg');
   background-repeat: no-repeat;
-  background-position: top left;
-  background: rgb(65, 65, 65);
-  height: 2000px;
+  background-position: bottom left;
+}
+.content-container {
+  background: var(--main-bg-color);
+  height: 1200px;
   padding: 100px 230px 0 230px;
 }
 .content-container p {
-  color: white;
+  color: var(--text-color);
   font-size: 30px;
   font-family: 'Bellota Text', cursive;
 }
-.photo1 {
+.content-container h3 {
+  color: var(--text-color);
+  font-size: 40px;
+  font-family: 'Bellota Text', cursive;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--main-bg-color);
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 400px;
+  background: var(--secondary-bg-color);
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 15px;
+  text-decoration: none;
+  font-family: 'Bellota Text', cursive;
+  font-size: 30px;
+}
+.button-container p {
+  font-size: 50px;
+  font-family: 'Bellota Text', cursive;
+  color: var(--text-color);
+}
+/* .photo1 {
   height: 400;
   width: 400;
-}
+} */
 article,
 aside,
 details,
