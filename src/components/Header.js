@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <div>
       <div className='header-background'>
-        <nav>
+        {/* <nav>
           <ul>
             <li>
               <Link to='/photos'>Photos</Link>
@@ -14,7 +14,7 @@ export const Header = () => {
               <Link to='/testimonials'>Testimonials</Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
 
         <p className='header'>Save the Team Program!!!</p>
       </div>

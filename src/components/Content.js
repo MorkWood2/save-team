@@ -1,11 +1,10 @@
 import React from 'react';
+import Image from '../images/DSC_4693.jpg';
 
 export const Content = () => {
   return (
     <div>
       <div className='content-container'>
-        <img src='src/images/67B5708D-39FD-4B04-BA82-E58D9F6CC642.JPG' alt='' />
-
         <h3>
           This phrase has been uttered infinite times from alumni and current
           students in the past 30 years!
@@ -20,9 +19,15 @@ export const Content = () => {
           pressures of large high school life, they are able to grow and find a
           home in Team. Within a few months, we see shifts in intrinsic
           motivation, feelings of belonging, and growth mindsets towards
-          education. Team is a family and it does change lives.{' '}
+          education. <b>Team is a family and it does change lives.</b>{' '}
         </p>
-        <img src='src/images/DSC_4693.jpg' alt='' />
+        <div className='img-container'>
+          <img className='img1' src={Image} alt='' />
+          <span className='img-info'>
+            Team 06-07 looking out at the beautiful landscape of the Lost Coast,
+            California.
+          </span>
+        </div>
         <p>
           Due to the parcel tax not passing in this past election, cuts need to
           be made in our district. Team is on the list this Tuesday night of

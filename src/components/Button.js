@@ -14,6 +14,7 @@ export const Button = () => {
         >
           Sign the Petition
         </a>
+        <div className='footer'>Made with ❤️ by Mark. Team 06-07</div>
       </div>
     </div>
   );
