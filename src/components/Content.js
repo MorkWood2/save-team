@@ -49,10 +49,10 @@ export const Content = () => {
             <b>
               {' '}
               Our only hope at this moment is to write to the board of trustees
-              a heartfelt email and tell them how team has changed your life.
-              Please share this website and reach out to all team alumni,
-              parents of teamies, as well as friends of the program and help
-              spread the word.{' '}
+              a heartfelt email and describe what Team did for you and what it
+              means for you now. Please share this website and reach out to all
+              team alumni, parents of teamies, as well as friends of the program
+              and help spread the word.{' '}
             </b>
           </span>
           Let's not deny current and future students the same opportunities
