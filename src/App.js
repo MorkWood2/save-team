@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename={'/save-team/'}>
       <div className='App'>
         <Switch>
           <Route exact path='/' component={Home} />
