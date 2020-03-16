@@ -27,26 +27,37 @@ export const Content = () => {
             src={Image}
             alt='students backing in wilderness looking out at beach'
           />
-          <span className='img-info'>
+          <h4 className='img-info'>
             Team 06-07 looking out at the beautiful landscape of the Lost Coast,
             California.
-          </span>
+          </h4>
         </div>
+        <h2>The state of Team.</h2>
         <p>
-          Due to the parcel tax not passing in this past election, cuts need to
-          be made in our district. Team is on the list this Tuesday night of
-          programs to be “suspended” for next school year. We know we cannot
-          come back from a suspension, so this will end the program. We need to
-          have our district understand what team really is and why this
-          transformative education program needs to stay! We fundraise for
-          everything and we are committed to helping the mental health and
-          growth of teens in our community. Before cutting our program, we hope
-          others can see it and feel the benefits that this program has on all
-          our lives. It makes this district stand out for its commitment to
-          helping youth who are not feeling success or belonging in a
-          traditional setting! If Team has helped changed your life or the life
-          of someone you know and you want it to stay in our district, please
-          add your name to this list!
+          Due to the parcel tax not passing in this past election, Team is
+          “suspended” for the next school year.{' '}
+          <span>
+            <b>
+              {' '}
+              The final decision to cut team forever is likely not to be made
+              until May, so we don’t have much time.
+            </b>{' '}
+          </span>{' '}
+          We need to have our district understand what team really is and why
+          this transformative education program needs to stay!{' '}
+          <span>
+            <b>
+              {' '}
+              Our only hope at this moment is to write to the board of trustees
+              a heartfelt email and tell them how team has changed your life.
+              Please share this website and reach out to all team alumni,
+              parents of teamies, as well as friends of the program and help
+              spread the word.{' '}
+            </b>
+          </span>
+          Let's not deny current and future students the same opportunities
+          previous students have benefitted from for decades and keep alive this
+          special program that makes the Tam High School district so great!
         </p>
       </div>
     </div>

@@ -14,6 +14,10 @@
   box-sizing: border-box;
 }
 
+span {
+  color: rgb(255, 99, 99);
+}
+
 .header-background {
   background-image: url('images/diogo-tavares-rcngqAAfYK0-unsplash.jpg');
   background-color: #cccccc; /* Used if the image is unavailable */
@@ -93,7 +97,6 @@
   font-size: 30px;
   font-family: 'Bellota Text', cursive;
   line-height: 45px;
-  padding: 50px 0;
 }
 .content-container h3 {
   color: rgb(253, 253, 253);
@@ -101,6 +104,14 @@
     0px -5px 35px rgba(255, 255, 255, 0.3);
   font-size: 45px;
   font-family: 'Bellota Text', cursive;
+  padding-bottom: 15px;
+}
+.content-container h2 {
+  font-size: 50px;
+  font-family: 'Bellota Text', cursive;
+  color: rgb(74, 86, 148);
+  font-weight: bold;
+  padding-top: 15px;
 }
 /* .content-container img {
   height: 300px;
@@ -147,6 +158,7 @@
   font-weight: bold;
 }
 .img-container {
+  padding: 25px 0;
   display: flex;
   align-items: center;
   justify-content: center;
