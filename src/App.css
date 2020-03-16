@@ -379,6 +379,9 @@ input::-moz-focus-inner {
   .button-container p {
     font-size: 30px;
   }
+  .content-container h2 {
+    font-size: 30px;
+  }
   .content-container {
     padding: 100px 10px 5px 10px;
   }
