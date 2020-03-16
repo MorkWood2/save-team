@@ -29,7 +29,7 @@ export const Content = () => {
           />
           <h4 className='img-info'>
             Team 06-07 looking out at the beautiful landscape of the Lost Coast,
-            California.
+            California. Photo: Skyler Greene
           </h4>
         </div>
         <h2>The state of Team.</h2>
